@@ -29,10 +29,7 @@ registered under the `databricks_challenge` catalog.
 - Applied `OPTIMIZE` to compact small files
 - Used `ZORDER` on frequently filtered columns to improve data skipping
 
-### 4. Caching
-- Cached frequently accessed tables to speed up repeated queries
-
-### 5. Benchmarking
+### 4. Benchmarking
 - Measured query execution time before and after optimization
 - Observed improved performance after applying partitioning and ZORDER
 - Validated optimizations using real query workloads
